@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100.
+.900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="pay.css">
+
+    <title>Remz Health - Ödeme Sayfas</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Remz Health Subscription</h2>
+        <p class="plan">Selected Plan: <span>Premium</span></p>
+        <p class="price">$20,00 / ay</p>
+
+        <div class="card">
+            <div class="bank-logo">Pasabank</div>
+            <div class="card-number"> <label for="">Card number</label>
+                <input class="number" type="tel" placeholder="1234 **** **** 5678" pattern="\d*" maxlength="16">
+            </div>
+
+
+            <input type="text" class="card-date" placeholder="10/24" style="width: 48%; display: inline-block;"
+                maxlength="5">
+            <input type="text" class="cvv" placeholder="CVV" style="width: 48%; display: inline-block;" maxlength="3">
+            <div><img class="visa-logo" src="images/Mastercard-logo.svg" alt=""></div>
+        </div>
+
+        <button type="submit">Pay</button>
+        <script>
+
+        </script>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

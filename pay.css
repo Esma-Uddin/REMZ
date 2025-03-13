@@ -1,0 +1,118 @@
+body {
+    font-family: lato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+} 
+
+.container {font-family: lato;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.card {
+    background: linear-gradient(161deg, rgba(8, 105, 122, 1) 15%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+    width: 350px;
+    height: 150px;
+}
+
+.card input {
+
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.card .bank-logo {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.visa-logo {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    font-weight: bold;
+}
+
+.plan {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan span {
+    color: #08697a;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #08697a;
+}
+
+.container button {
+    width: 100px;
+    padding: 10px;
+    background: #08697a;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container button:hover {
+    background: linear-gradient(161deg, rgba(60, 142, 157, 1) 10%, rgba(0, 0, 0, 1) 80%);
+}
+
+.card-number {
+    margin-top: 40px;
+}
+
+.card-number label {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.number {
+    width: 420px;
+    margin-top: 10px;
+}
+
+.card-date {
+    margin-top: 20px;
+}
+
+.cvv {
+    margin-top: 20px;
+}
+.container img{width: 50px;
+display: flex;
+margin-top: -10px;
+}

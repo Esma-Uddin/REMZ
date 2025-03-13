@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PatientAccount.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <title>Patient Account</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <a id="logo" href=""><img src="images/output-onlinepngtools 2.svg" alt="Rəmz Health Logo"> </a>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Hospitals</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+
+
+        <div>
+
+            <!-- <select id="sidebar" class="sidebar">
+                <option value="" disabled selected>Menu</option>
+                <option value="profile">Profile</option>
+                <option value="appointments">Appointments</option>
+                <option value="change-password">Change Password</option>
+                <option value="logout">Log out</option>
+            </select> -->
+
+
+            <img class="zil" src="images/Icon set (5).svg" alt="">
+            <img id="profilphoto" class="profilphoto" src="images/Rectangle 6.svg" alt="">
+        </div>
+        <div class="menu-container">
+            <img src="images/Frame 948.svg" class="menuline" id="menuline" alt="" onclick="toggleMenu()">
+            <div class="menu-content" id="menuContent">
+              <a href="#">Home</a>
+              <a href="#">Doctors</a>
+              <a href="#">Hospitals</a>
+              <a href="#">Contact us</a>
+            </div>
+          </div>
+          
+
+    </header>
+    <section class="patient-login">
+        <h2>Profile</h2>
+
+
+        <form class="form-groups">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="">
+            </div>
+
+            <div class="form-group">
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" value="">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" value="">
+            </div>
+
+            <div class="form-group">
+                <label for="fin">FIN:</label>
+                <input class="fin" type="text" id="fin" name="fin" value="" placeholder="Not editable">
+
+            </div>
+
+
+
+            <button type="submit" class="btn">Save changes</button>
+
+
+        </form>
+
+        <div class="gallery">
+            <img src="images/Rectangle 6.svg" alt="" class="big-photo">
+            <div class="small-photos">
+                <img src="images/EditButton.svg" alt="" class="small-photo">
+                <img src="images/DeleteButton.svg" alt="" class="small-photo">
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <!-- Footer left side -->
+            <div class="footer_logo-info">
+                <!-- Logo and social media part -->
+                <div class="footer_logo">
+                    <a href="#"><img src="images/output-onlinepngtools 1.svg" alt="logo"></a>
+                    <ul>
+                        <li><a href="#"><img src="images/Icon set.svg" alt="facebook"></a></li>
+                        <li><a href="#"><img src="images/Icon set (4).svg" alt="instagram"></a></li>
+                    </ul>
+                </div>
+                <!-- Infos about company -->
+                <ul class="footer_info">
+                    <li><a href="#"><img src="images/Icon set (1).svg" alt=""> Baku, Khatai 29</a></li>
+                    <li><a href="#"><img src="images/Icon set (2).svg" alt=""> info@remz.com</a></li>
+                    <li><a href="#"><img src="images/Icon set (3).svg" alt=""> +994513102525</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer right side -->
+            <div class="footer-links">
+                <ul class="footer-section">
+                    <p>Pages</p>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Hospitals</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+
+                <ul class="footer-section">
+                    <p>Company</p>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Families</a></li>
+                    <li><a href="#">Subscriptions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+                <ul class="footer-section">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-last">
+            <span>Copyright ©</span>
+            <p>Design by <span>Mahsati Jalilli</span></p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

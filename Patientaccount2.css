@@ -1,0 +1,954 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "inter", serif, "Lato";
+}
+
+
+
+
+header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 24px 80px;
+
+    background: white;
+    border: 1px solid rgba(232, 232, 232, 1);
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin: 0 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    color: #333;
+    font-family: lato;
+    font-size: 24px;
+
+    font-weight: 500;
+
+    transition: color 0.5s ease;
+
+}
+
+nav ul li a:hover {
+    color: #076C7D;
+}
+
+
+#logo {
+    cursor: pointer;
+    width: 80px;
+    display: block;
+    height: 80px;
+
+}
+
+#logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.profilphoto {
+    border-radius: 58%;
+    border: 2px solid #076C7D;
+    width: 80px;
+    height: 80px;
+}
+
+.zil {
+    margin: 20px 10px;
+}
+
+/*/////DELETE-MODEL//////////*/
+
+.delete-model {
+    max-width: 720px;
+    border-radius: 12px;
+    border: 1px solid rgba(153, 153, 153, 0.3);
+    text-align: center;
+    padding: 36px 64px;
+    gap: 26px;
+    margin: 50px auto;
+    box-shadow: 0 2px 10px rgba(153, 153, 153, 0.3);
+    background-color: rgba(253, 253, 253, 1);
+    
+
+}
+
+.delete-model p {
+    font-weight: 500;
+    font-family: lato;
+    font-size: 28px;
+    line-height: 33.6px;
+}
+
+.delete-model button {
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+.noBtn {
+    color: rgba(208, 4, 22, 1);
+    border: 1px solid rgba(208, 4, 22, 1);
+    background-color: transparent;
+}
+
+.noBtn:active {
+    background: rgba(255, 210, 214, 0.55);
+}
+
+
+.yesBtn {
+    border: 1px solid rgba(31, 193, 107, 1);
+    color: rgba(31, 193, 107, 1);
+    margin-left: 10px;
+}
+
+.yesBtn:active {
+    background: rgba(219, 255, 236, 0.55);
+}
+
+/*///////CHANGE-PASSWORD/////////*/
+
+
+.change-password h3 {
+    margin-top: 20px;
+    margin-left: 80px;
+
+    font-family: lato;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.change-password form {
+    min-width: 847px;
+    margin-top: 24px;
+}
+
+.password-label {
+    display: flex;
+    padding: 10px;
+    margin-top: 16px;
+}
+
+
+.password-label input {
+    display: flex;
+    padding: 16px 24px;
+    gap: 8px;
+    padding-top: 8px;
+    padding: 8px;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 30px;
+    width: 630px;
+    margin-left: -150px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    display: flex;
+}
+
+.password-label label {
+    margin-right: 80px;
+    margin-left: 80px;
+    font-weight: 400;
+    font-family: "lato";
+    font-size: 30px;
+    padding-top: 16px;
+    margin-top: 3px;
+    width: 20%;
+}
+
+.change-password a {
+    position: absolute;
+    margin-top: 36px;
+    color: #777;
+    text-align: right;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 820px;
+}
+
+.change-password button {
+    padding: 12px 24px;
+    border: 2px solid rgba(7, 108, 125, 1);
+    background: rgba(7, 108, 125, 1);
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 850px;
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: lato;
+
+}
+
+.change-password button:hover {
+    background-color: rgb(4, 64, 75);
+}
+
+
+/*///////NEW PASSWORD//////////*/
+.new-password h2 {
+    color: #000E10;
+    text-align: center;
+    font-family: Lato;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 87px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.new-password form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+
+
+}
+
+.new-password input {
+    padding: 16px 24px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: Lato;
+    color: #606060;
+    gap: 8px;
+    min-width: 630px;
+
+}
+
+
+
+
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.input-container img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.new-password button {
+    background: #076C7D;
+    color: white;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: lato;
+    border-radius: 12px;
+    margin-left: 450px;
+    margin-top: 36px;
+}
+
+
+
+
+/*////////CHECK-CODE//////////*/
+.check-code {
+    width: 1033px;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 36px;
+    padding: 36px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    border: 1px solid rgba(153, 153, 153, 0.3);
+    border-radius: 16px;
+    position: relative;
+}
+
+.check-code p {
+    padding-left: 36px;
+    padding-right: 36px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.check-code button {
+
+    border-radius: 12px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.x {
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: -20px;
+    top: 33px;
+}
+
+.check-code-buttons {
+    display: inline-flex;
+    gap: 56px;
+    margin-left: 280px;
+    margin-top: 70px;
+
+}
+
+/*////// GERI SAYIM ///////*/
+
+#countdown {
+    position: absolute;
+    right: 150px;
+    top: 150px;
+    font-family: Lato;
+    font-size: 32px;
+}
+
+/*OTP-KOD INPUT*/
+.otp-container {
+    margin: 0 350px;
+    gap: 72px;
+    padding: 40px;
+
+}
+
+.otp-box {
+    width: 40px;
+    height: 50px;
+    border: none;
+    border-bottom: 4px solid gray;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background: transparent;
+    outline: none;
+    caret-color: transparent;
+}
+
+.otp-box.filled {
+    border-bottom: 4px solid black;
+}
+
+.resendBtn {
+    color: rgba(255, 121, 132, 1);
+    background-color: transparent;
+    border: 1px solid rgba(255, 121, 132, 1);
+}
+
+.confirmBtn {
+    color: white;
+    background: rgba(132, 235, 180, 0.75);
+    border: rgba(132, 235, 180, 0.75);
+}
+
+.confirmBtn.active {
+    background-color: #4caf50;
+    cursor: pointer;
+}
+
+
+
+/*///////APPOINTMENTS/////*/
+.doctors_container h3 {
+    font-size: 48px;
+    line-height: 72px;
+    padding: 30px;
+    font-family: "lato";
+}
+
+.doctors_list {
+    padding-left: 80px;
+    list-style-type: none;
+}
+
+.doctors_list p {
+    font-weight: 500;
+    font-family: lato;
+    font-size: 24px;
+}
+
+.doctors_list li {
+    list-style-type: none;
+}
+
+.doctor {
+    padding: 24px;
+    margin-bottom: 48px;
+    display: flex;
+    border: 1px solid #d2d2d2;
+    border-radius: 24px;
+}
+
+
+.doctor_info {
+    padding: 30px 0px;
+
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+    list-style-type: none;
+}
+
+#doctor_hospital {
+    margin-top: 20px;
+}
+
+#doctor_name {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#doctor_field {
+    margin: gbf;
+
+    font-size: 28px;
+    color: #606060;
+}
+
+.buttons {
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 830px;
+    margin-left: 900px;
+}
+
+#edit-button {
+    border-radius: 12px;
+    border: 1px solid rgba(31, 193, 107, 1);
+    padding: 16px 35px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(31, 193, 107, 1);
+}
+
+/*///////RANDEVU TARIXLERI///////*/
+.date-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.date-list li {
+    font-family: lato;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+#delete-button {
+    border-radius: 12px;
+    border: 1px solid rgba(208, 4, 22, 1);
+    padding: 16px 24px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(208, 4, 22, 1);
+}
+
+
+
+
+
+
+
+
+
+.patient-login {
+    padding-top: 50px;
+}
+
+
+
+
+
+.patient-login h2 {
+    font-family: lato;
+    font-size: 48px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-left: 49px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 30px;
+
+    border-radius: 8px;
+    width: 975px;
+
+
+
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 40px;
+}
+
+
+.form-group label {
+    font-weight: 400;
+    font-family: "lato";
+    font-size: 30px;
+    margin-left: 80px;
+    width: 30%;
+
+}
+
+
+.form-group input {
+    font-size: 24px;
+    font-weight: 400;
+    width: 45%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    margin-left: -360px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    display: flex;
+
+}
+
+
+#fin:placeholder-shown {
+    font-family: "lato";
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(96, 96, 96, 1);
+    padding-bottom: 8px;
+    padding-top: 16px;
+    padding-left: 10px;
+
+}
+
+.btn {
+    padding: 16px 24px;
+    border: 1px solid rgba(7, 108, 125, 1);
+    border-radius: 12px;
+    background: white;
+    color: rgba(4, 64, 75, 1);
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 730px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: lato;
+}
+
+.btn:hover {
+    background: #076C7D;
+    color: white;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: -350px;
+    margin-left: 1000px;
+
+}
+
+.big-photo {
+    width: 197px;
+
+
+    margin-bottom: 15px;
+
+}
+
+.small-photos {
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.small-photo {
+    width: 15%;
+
+    margin: 0 5px;
+
+}
+
+
+footer {
+    background-color: rgba(10, 151, 176, 0.1);
+    padding: 36px 80px;
+    width: 100%;
+    /*BU HISSENI YADDA SAXLA*/
+    margin-top: 200px;
+    gap: 16px;
+
+}
+
+footer .footer-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #a4a4a4;
+    margin-bottom: 16px;
+}
+
+footer .footer-container .footer_logo-info {
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+footer .footer-container .footer_logo-info .footer_logo {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-container .footer_logo-info .footer_logo a {
+    margin-bottom: 24px;
+}
+
+footer .footer-container .footer_logo-info .footer_logo ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .footer-container .footer_logo-info .footer_logo ul li a {
+    text-decoration: none;
+}
+
+footer .footer-container .footer_logo-info .footer_logo ul li a img {
+    width: 32px;
+}
+
+footer .footer-container .footer_logo-info .footer_logo ul li:first-child {
+    margin-right: 8px;
+}
+
+footer .footer-container .footer_logo-info .footer_info {
+    list-style-type: none;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-container .footer_logo-info .footer_info li {
+    margin-bottom: 12px;
+}
+
+footer .footer-container .footer_logo-info .footer_info li a {
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+footer .footer-container .footer_logo-info .footer_info li a img {
+    margin-right: 8px;
+    width: 32px;
+}
+
+footer .footer-container .footer_logo-info .footer_info li:last-child {
+    margin-bottom: 0;
+}
+
+footer .footer-container .footer-links {
+    width: 28.9%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+footer .footer-container .footer-links .footer-section {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-container .footer-links .footer-section p {
+    font-family: Lato;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+footer .footer-container .footer-links .footer-section li {
+    margin-bottom: 12px;
+}
+
+footer .footer-container .footer-links .footer-section li a {
+    font-family: Lato;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer .footer-last {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-last span {
+    font-family: Lato;
+    font-size: 18px;
+    color: #606060;
+}
+
+footer .footer-last p {
+    font-family: Lato;
+    font-size: 18px;
+    color: #606060;
+}
+
+footer .footer-last p span {
+    color: #333333;
+}
+
+
+
+
+@media screen and (max-width: 744px) {
+    /* body {
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    } */
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+        background: white;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #logo img {
+
+        width: 80px;
+    }
+    
+#logo {
+    cursor: pointer;
+    width: 80px;
+    display: block;
+    height: 80px;
+
+}
+
+#logo img {
+    width: 80px;
+    height: 80px;
+}
+
+
+    .profilphoto {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 90px;
+        bottom: 50px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #333;
+        font-weight: 500;
+    }
+
+    .change-password {
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        width: 40%;
+        margin-top: 50px;
+    }
+
+    .change-password h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .password-label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .password-label label {
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .password-label input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #007bff;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: #007bff;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background: #0056b3;
+    }
+
+    footer {
+        width: 100%;
+        background: #e8f4f8;
+        padding: 20px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .footer_logo-info {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 50px;
+    }
+
+    .footer-section p {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .footer-section li {
+        list-style: none;
+        margin-bottom: 5px;
+    }
+
+    .footer-section li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+    }
+
+    .footer-last {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}
