@@ -62,7 +62,8 @@ header {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    top: 40px;
+    left: 1300px;
     width: 124px;
     height: 232px;
     background-color: #fff;

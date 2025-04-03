@@ -138,6 +138,133 @@ nav ul li a:hover {
     background: rgba(219, 255, 236, 0.55);
 }
 
+
+
+
+
+/*//////RATE/////////*/
+
+.rate {
+    max-width: 720px;
+    border-radius: 12px;
+    border: 1px solid rgba(153, 153, 153, 0.3);
+    text-align: center;
+    padding: 36px 64px;
+    gap: 26px;
+    margin: 50px auto;
+    box-shadow: 0 2px 10px rgba(153, 153, 153, 0.3);
+    background-color: rgba(253, 253, 253, 1);
+    
+
+}
+
+.rate p {
+    font-weight: 500;
+    font-family: lato;
+    font-size: 28px;
+    line-height: 33.6px;
+}
+
+.rate button {
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+.rate a{border-radius: 12px;
+    padding: 10px 40px;
+    background-color: transparent;
+    font-size: 20px;text-decoration: none;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;}
+
+.notbtn {
+    color: rgba(208, 4, 22, 1);
+    border: 1px solid rgba(208, 4, 22, 1);
+    background-color: transparent;
+}
+
+#notbtn:active {
+    background: rgba(255, 210, 214, 0.55);
+}
+
+
+.ratebtn {
+    border: 1px solid rgba(31, 193, 107, 1);
+    color: rgba(31, 193, 107, 1);
+    margin-left: 10px;
+}
+
+.ratebtn:active {
+    background: rgba(219, 255, 236, 0.55);
+}
+
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.star {
+    color: gray;
+}
+
+.star.active {
+    color: gold;
+}
+.feedback{ max-width: 720px;
+    border-radius: 12px;
+    border: 1px solid rgba(153, 153, 153, 0.3);
+    text-align: center;
+    padding: 56px 64px;
+   
+    gap: 26px;
+    margin: 50px auto;
+    box-shadow: 0 2px 10px rgba(153, 153, 153, 0.3);
+    background-color: rgba(253, 253, 253, 1);}
+
+.feedback p{color: var(--Black, #000E10);
+
+    /* Text styles/Headings/H-2 */
+    font-family: Lato;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 87px; /* 150% */}
+.feedback span{
+    width:300px;
+    color: var(--Black, #000E10);
+    font-family: Lato;
+    font-size: 20px;
+   
+    font-weight: 300;
+  }
+  .feedback a{text-decoration: none;
+      border-radius: 12px;
+    padding: 10px 40px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: -80px;
+    border: 1px solid;
+    color: white;
+    background-color: #076C7D;
+    font-family: lato;
+    position: relative;
+    top: 30px;
+   
+}
+
 /*///////CHANGE-PASSWORD/////////*/
 
 
