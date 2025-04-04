@@ -101,3 +101,34 @@ let currentIndex = 0;
                     this.value = this.value.replace(/\D/g, ''); 
                 });
             });
+
+
+
+            /*  RATE  */
+            
+    function rateDoctor(rating) {
+        const stars = document.querySelectorAll(".star");
+        stars.forEach((star, index) => {
+            if (index < rating) {
+                star.classList.add("active");
+                star.innerHTML = "&#9733;"; // Dolu yıldız
+            } else {
+                star.classList.remove("active");
+                star.innerHTML = "&#9734;"; // Boş yıldız
+            }
+        });
+    }
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const grid = document.getElementById("specialisation-grid");
+
+        document.getElementById("left").addEventListener("click", function () {
+            grid.scrollBy({ left: -250, behavior: "smooth" });
+        });
+
+        document.getElementById("right").addEventListener("click", function () {
+            grid.scrollBy({ left: 250, behavior: "smooth" });
+        });
+    });

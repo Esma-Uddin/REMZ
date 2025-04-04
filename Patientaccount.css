@@ -27,6 +27,7 @@ header {
 
 }
 
+
 #logo {
     cursor: pointer;
     width: 80px;
@@ -93,14 +94,19 @@ header {
         display: block;
     }
 
-    .menu-content {
+    .menu-content {margin-top: 10px;
+        margin-left: -670px;
         width: 124px;
         height: 232px;
         padding: 40px 16px;
     }
 
     .menu-content a {
+        margin-top: -5px;
         font-size: 14px;
+        display: flex;
+      
+       
     }
 
     .menuline {
@@ -248,7 +254,7 @@ nav ul li a {
     width: 117px;
     color: #333;
     font-family: lato;
-    font-size: 24px;
+    font-size: 20px;
 
     font-weight: 400;
 
@@ -539,6 +545,30 @@ footer .footer-last p span {
 
     }
 
+    
+.menu-content {
+    display: none;
+    position: absolute;
+   
+    top: 40px;
+    margin-left: -300px;
+    width: 124px;
+    height: 232px;
+    background-color: #fff;
+    padding: 124px 16px;
+    gap: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.menu-content a {
+    margin-top: -10px;
+    font-size: 14px;
+    display: flex;
+  
+   
+}
+
     .patient-login {
         padding-top: 40px;
     }
@@ -570,7 +600,7 @@ footer .footer-last p span {
     .form-group input {
         font-size: 20px;
         width: 50%;
-        margin-left: -200px;
+        margin-left: -250px;
         padding: 8px 20px;
     }
 
@@ -590,7 +620,7 @@ footer .footer-last p span {
 
     .big-photo {
         width: 170px;
-        margin-left: 10px;
+        margin-left: -70px;
     }
 
     .small-photo {
@@ -599,7 +629,7 @@ footer .footer-last p span {
     }
 
     .small-photos {
-        margin-left: 50px;
+        margin-left: -45px;
     }
 
     .footer_info {
@@ -614,6 +644,23 @@ footer .footer-last p span {
         width: 1150px;
 
     }
+
+
+       
+.menu-content {
+    display: block;
+    position: absolute;
+    top: 40px;
+    margin-left: -300px;
+    width: 124px;
+    height: 232px;
+    background-color: #fff;
+    padding: 124px 16px;
+    gap: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
 
     .patient-login {
         padding-top: 40px;
@@ -653,7 +700,7 @@ footer .footer-last p span {
     .btn {
         font-size: 18px;
         padding: 14px 20px;
-        margin-right: 100px;
+        margin-left: 600px;
         display: block;
         width: 154px;
     }
@@ -666,7 +713,7 @@ footer .footer-last p span {
 
     .big-photo {
         width: 170px;
-        margin-left: -50px;
+        margin-left: -110px;
     }
 
     .small-photo {
@@ -676,7 +723,7 @@ footer .footer-last p span {
     }
 
     .small-photos {
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
     footer {
@@ -695,6 +742,22 @@ footer .footer-last p span {
         width: 1150px;
 
     }
+
+          
+.menu-content {
+    display: block;
+    position: absolute;
+    top: 40px;
+    margin-left: -300px;
+    width: 124px;
+    height: 232px;
+    background-color: #fff;
+    padding: 124px 16px;
+    gap: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
 
     .patient-login {
         padding-top: 40px;
